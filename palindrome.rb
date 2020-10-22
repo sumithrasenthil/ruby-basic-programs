@@ -1,10 +1,13 @@
-def palindrome(s)
-	if s==s.reverse
-		puts "#{s} is a palindrome"
-   	else
-		puts "#{s} is Not a palindrome"
-	end
+def is_palindrome(s)
+	s==s.reverse ? true:false
+        
+	
 end
 
-s='madam'
-palindrome(s)
+s='MadaM'
+result=is_palindrome(s)
+if result
+	puts "#{s} is a palindrome"
+else
+	puts "#{s} is not a palindrome"
+end
