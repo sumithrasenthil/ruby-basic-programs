@@ -4,19 +4,19 @@ def get_weekday(date)
 	case date
 	
 	when 1
-		puts "Today is Monday"
+		return "Monday"
 	when 2
-		puts "Today is Tuesday"
+		return "Tuesday"
 	when 3
-		puts "Today is Wednesday"
+		return "Wednesday"
 	when 4
-		puts "Today is Thursday"
+		return "Thursday"
 	when 5
-		puts "Today is Friday"
+		return "Friday"
 	when 6
-		puts "Today is Saturday"
+		return "Saturday"
  	when 7
-		puts "Today is Sunday"
+		return "Sunday"
 	
 	end
 end
@@ -24,4 +24,4 @@ end
 d=Date.today
 date=d.wday
 weekday=get_weekday(date)
-
+puts "Today is #{weekday}"
