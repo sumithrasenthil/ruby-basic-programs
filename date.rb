@@ -15,7 +15,7 @@ def get_weekday(date)
 		return "Friday"
 	when 6
 		return "Saturday"
- 	when 7
+ 	when 0
 		return "Sunday"
 	
 	end
